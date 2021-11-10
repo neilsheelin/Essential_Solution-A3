@@ -1,0 +1,42 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: black;
+}
+
+html, body {
+  box-sizing: border-box;
+
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+/* menu */
+.container > div:nth-child(1n) {
+  background-color: white;
+}
+
+/* content1 */
+.container > div:nth-child(2n) {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* Testmonials */
+.container > div:nth-child(3n) {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* content2 */
+.container > div:nth-child(4n) {
+  background-color: white;
+}
+
+.container > div:nth-child(5n) {
+  background-color: green;
+}
