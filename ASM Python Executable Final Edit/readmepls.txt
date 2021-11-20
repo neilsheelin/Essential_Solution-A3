@@ -27,6 +27,8 @@ or
 > Navigate to dist/AustralianSportsManager.exe and give that a try. 
 (There are some bugs with this, entering blank lines or options that cannot be picked will cause the program to get stuck, this is very much a demo.)
 
+Edit: I've had to removed the executable version as windows defender does not like it, likely because it was made with pyinstaller.
+
 
 ================================================================================================================================================================
 
